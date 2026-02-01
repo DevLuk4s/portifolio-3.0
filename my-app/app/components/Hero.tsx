@@ -23,19 +23,22 @@ const Hero = () => {
         </p>
         <div className="flex justify-center space-x-4 mb-8">
           <Link
-            href="/"
+            target="_blank"
+            href="https://github.com/DevLuk4s"
             className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 duration-300 transition"
           >
             <FaGithub />
           </Link>
           <Link
-            href="/"
+            target="_blank"
+            href="https://www.linkedin.com/in/lucas-gabriel-a1525124b/"
             className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 duration-300 transition"
           >
             <FaLinkedin />
           </Link>
           <Link
-            href="/"
+            target="_blank"
+            href="https://www.instagram.com/luk4s.gabriel/"
             className="text-2xl text-gray-600 hover:text-primary dark:text-gray-300 duration-300 transition"
           >
             <FaInstagram />
@@ -46,13 +49,13 @@ const Hero = () => {
             href="/projects"
             className="bg-primary inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:bg-primary/80 transition-colors"
           >
-            View Project
+            View Projects
           </Link>
           <Link
-            href="/projects"
+            href="/contact"
             className="bg-gray-500 inline-block w-full md:w-auto text-white px-8 py-3 rounded-lg hover:text-gray-800 hover:bg-gray-300 transition-colors"
           >
-            View Project
+            Contact Me
           </Link>
         </div>
       </div>
