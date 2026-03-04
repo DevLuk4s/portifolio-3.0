@@ -26,9 +26,24 @@ const Contact = () => {
     setStatus("loading");
     try {
       const respose = await fetch("api/contact", {
-        method: POST, headers: {"Cotent-Type":"application/json"}, body: JSON.stringify(FormData)
-      })
-    } catch (error) {}
+        method: "POST",
+        headers: { "Cotent-Type": "application/json" },
+        body: JSON.stringify(FormData),
+      });
+
+      if (!respose.ok) {
+        throw new Error("Failed to send message");
+      }
+
+      setStatus("success");
+      setFormData({
+        name: "",
+        email: "",
+        message: "",
+      });
+    } catch (error) {
+      setStatus("error");
+    }
   };
 
   const HadleChange = (
@@ -143,6 +158,18 @@ const Contact = () => {
             >
               {status === "loading" ? "Sending..." : "Send Message"}
             </button>
+
+            {status === "success" && (
+              <p className="text-green-500 text-center">
+                Message sent sucessfully!
+              </p>
+            )}
+
+            {status === "error" && (
+              <p className="text-red-500 text-center">
+                Failed to send message. Please try again.
+              </p>
+            )}
           </form>
         </div>
       </div>
