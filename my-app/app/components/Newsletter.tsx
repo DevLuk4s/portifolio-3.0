@@ -7,11 +7,11 @@ export default function Newsletter() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
               <div>
                 <h2 className="text-2xl font-bold mb-4">
-                  Subscribe to My Newsletter
+                  Assine minha newsletter
                 </h2>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Get the latest updates on my projects, blog posts, and tech
-                  insights delivered straight to your inbox.
+                  Receba as últimas novidades sobre meus projetos, posts do blog
+                  e insights tecnológicos diretamente na sua caixa de entrada.
                 </p>
               </div>
               <form className="flex flex-col sm:flex-row gap-4">
@@ -25,7 +25,7 @@ export default function Newsletter() {
                   type="submit"
                   className="bg-primary text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors"
                 >
-                  Subscribe
+                  Inscrever-se
                 </button>
               </form>
             </div>
