@@ -10,22 +10,23 @@ export const projects: Project[] = [
     image: "/timer-react.jpeg",
   },
   {
-    title: "Project Work 1",
+    title: "Jogo da Memoria",
     description:
-      "Este espaço está reservado para futuros projetos em desenvolvimento.",
-    technologies: ["React.Js", "TypeScript", "Tailwind CSS"],
-    githubLink: "https://github.com/DevLuk4s",
-    demoLink: "https://github.com/DevLuk4s",
-    image: "/project-work.png",
+      "Jogo da Memória clássico com tela de início, nome do jogador e cronômetro.",
+    technologies: ["JavaScript", "CSS3", "HTML5"],
+    githubLink:
+      "https://github.com/DevLuk4s/jogo-da-memoria?tab=readme-ov-file",
+    demoLink: "https://devluk4s.github.io/jogo-da-memoria/",
+    image: "/jogo-da-memoria.png",
   },
   {
-    title: "Project Work 2",
+    title: "Fitnes Landing Page",
     description:
       "Este espaço está reservado para futuros projetos em desenvolvimento.",
-    technologies: ["React.Js", "TypeScript", "Tailwind CSS"],
-    githubLink: "https://github.com/DevLuk4s",
-    demoLink: "https://github.com/DevLuk4s",
-    image: "/project-work.png",
+    technologies: ["JavaScript", "CSS3", "HTML5"],
+    githubLink: "https://github.com/DevLuk4s/site-academia",
+    demoLink: "https://devluk4s.github.io/site-academia/",
+    image: "/fitnes-ladingpage.png",
   },
   {
     title: "Project Work 3",
@@ -54,31 +55,5 @@ export const projects: Project[] = [
     demoLink: "https://github.com/DevLuk4s",
     image: "/project-work.png",
   },
-  {
-    title: "Project Work 6",
-    description:
-      "Este espaço está reservado para futuros projetos em desenvolvimento.",
-    technologies: ["React.Js", "TypeScript", "Tailwind CSS"],
-    githubLink: "https://github.com/DevLuk4s",
-    demoLink: "https://github.com/DevLuk4s",
-    image: "/project-work.png",
-  },
-  {
-    title: "Project Work 7",
-    description:
-      "Este espaço está reservado para futuros projetos em desenvolvimento.",
-    technologies: ["React.Js", "TypeScript", "Tailwind CSS"],
-    githubLink: "https://github.com/DevLuk4s",
-    demoLink: "https://github.com/DevLuk4s",
-    image: "/project-work.png",
-  },
-  {
-    title: "Project Work 8",
-    description:
-      "Este espaço está reservado para futuros projetos em desenvolvimento.",
-    technologies: ["React.Js", "TypeScript", "Tailwind CSS"],
-    githubLink: "https://github.com/DevLuk4s",
-    demoLink: "https://github.com/DevLuk4s",
-    image: "/project-work.png",
-  },
+  
 ];
